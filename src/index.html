@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missed Call Assistant - Professional Missed Call Recovery</title>
+    <meta name="description"
+        content="Stop losing revenue to missed calls. We automatically text your missed calls to book appointments 24/7.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Missed Call Assistant</a>
+            <div>
+                <a href="#waitlist" class="btn btn-primary">Join Waitlist</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero section">
+            <div class="container">
+                <h1>Stop losing revenue to missed calls.</h1>
+                <p>Our service turns your missed calls into booked appointments instantly using professional SMS
+                    recovery. Responsive,
+                    automated, and human-like.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center;">
+                    <a href="#waitlist" class="btn btn-primary">Join the Waitlist</a>
+                    <a href="#how-it-works" class="btn btn-outline">See how it works</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="section">
+            <div class="container">
+                <h2 class="text-center mb-lg">How it works</h2>
+                <div class="features-grid">
+                    <div class="card">
+                        <h3>1. You miss a call</h3>
+                        <p>Whether you're busy or closed for the day, every missed call is a lost opportunity. We catch
+                            it.</p>
+                    </div>
+                    <div class="card">
+                        <h3>2. Professional response reaches out</h3>
+                        <p>Our assistant instantly sends a friendly, personalized text message to the caller starting a
+                            conversation.</p>
+                    </div>
+                    <div class="card">
+                        <h3>3. Appointment booked</h3>
+                        <p>We handle questions and schedule the lead directly onto your calendar while you focus
+                            on work.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="waitlist" class="section" style="background: var(--color-bg-alt);">
+            <div class="container text-center">
+                <h2 class="mb-md">Join the Waitlist</h2>
+                <p class="mb-lg" style="color: var(--color-text-muted);">Be the first to know when we launch and get
+                    early access.</p>
+
+                <div class="form-container">
+                    <!-- Formspree integration -->
+                    <form action="https://formspree.io/f/maybqeqy" method="POST">
+                        <div class="form-group">
+                            <label for="business-name">Business Name</label>
+                            <input type="text" id="business-name" name="business_name" class="form-input"
+                                placeholder="Acme Inc." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="maps-link">Google Maps Link</label>
+                            <input type="url" id="maps-link" name="maps_link" class="form-input"
+                                placeholder="https://maps.google.com/..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Contact Email</label>
+                            <input type="email" id="email" name="_replyto" class="form-input"
+                                placeholder="name@email.com" required>
+                        </div>
+                        <!-- Hidden field to redirect back to home -->
+                        <input type="hidden" name="_next" value="https://leadsync.ai/thanks.html">
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Reserve
+                            your spot</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            <div class="compliance-note">
+                <p>&copy; 2026 Missed Call Assistant. All rights reserved.</p>
+                <p>38 Cleopatra Dr, Ottawa, ON K2G 0B3</p>
+                <p>sahalaidid@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
